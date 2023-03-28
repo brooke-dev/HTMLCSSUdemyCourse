@@ -1,0 +1,117 @@
+body {
+    font-family: Cormorant, serif;
+  }
+
+/* Navbar CSS */
+
+h1 {
+  display: inline-block;
+  font-weight: 300;
+  margin: 0 32px 0 0;
+}
+  
+.links {
+  display: inline-block;
+}
+  
+.links li {
+  display: inline-block;
+}
+  
+.links a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 8px;
+}
+  
+.links ul {
+  padding: 0;
+}
+
+.navbar {
+  margin: 32px;
+}
+  
+a.active {
+  border-bottom: 1px solid black;
+}
+
+
+/* Card CSS */
+
+/* When using box-sizing and padding, we are able to set the width to the parent container, and subtract the padding from this spacing. This prevents elements from being pushed onto different lines. */
+.card {
+    width: 49.75%; /* this is slightly less than 50% so that we can split the parent container space */
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 16px;
+    box-sizing: border-box;
+    padding: 16px;
+  }
+  
+.card img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card img:hover {
+    opacity: 0.9;
+}
+  
+.card h2 {
+  font-weight:300;
+  display: inline-block;
+  margin: 8px 0 16px 0;
+}
+
+.gallery {
+    padding: 16px; /*padding for the section that holds all of the cards */
+}
+
+/* About/Contact CSS */
+
+.about {
+    text-align: left;
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 100px 200px
+}
+
+.about h3 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.about a {
+    text-decoration: none;
+    color:black;
+}
+.about a:hover {
+    opacity: 0.9;
+    color: rgb(98, 149, 75);
+    text-decoration:underline;
+}
+
+.contact {
+    margin-top: 100px;
+}
+  
+.contact p {
+  margin: 0;
+  font-size: 20px;
+}
+  
+.cta {
+  border-bottom: 1px solid black;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+
+.contact a{
+    text-decoration: none;
+    color:black;
+}
+  
